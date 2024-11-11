@@ -5,7 +5,7 @@ This repository is a minimal reproducible example demonstrating a bug in `mkdocs
 To reproduce:
 
 ```
-git clone https://github.com/ringohoffman/griffe-pytorch-minimal-reproducible-example
+git clone https://github.com/ringohoffman/mkdocstrings-python-minimum-reproducible-example
 cd griffe-pytorch-minimal-reproducible-example
 python -m venv .venv
 . .venv/bin/activate
