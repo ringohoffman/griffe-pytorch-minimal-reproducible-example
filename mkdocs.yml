@@ -1,7 +1,16 @@
 site_name: My Docs
+
+nav:
+  - index.md
+  - API Reference:
+    - reference/foo/module1.md
+    - reference/foo/module2.md
+
 plugins:
   - search
   - autorefs
   - mkdocstrings:
-      enabled: true
-      default_handler: python
+      handlers:
+        python:
+          options:
+            summary: true

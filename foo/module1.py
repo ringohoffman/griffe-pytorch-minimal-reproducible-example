@@ -1,0 +1,2 @@
+class Beans:
+    """Beans class."""
