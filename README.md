@@ -6,7 +6,7 @@ To reproduce:
 
 ```
 git clone https://github.com/ringohoffman/mkdocstrings-python-minimum-reproducible-example
-cd griffe-pytorch-minimal-reproducible-example
+cd mkdocstrings-python-minimum-reproducible-example
 python -m venv .venv
 . .venv/bin/activate
 pip install -r requirements.txt
